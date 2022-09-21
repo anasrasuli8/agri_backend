@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
            CitySeeder::class,
            CategorySeeder::class,
         ]);
-//        \App\Models\User::factory(5)->create();
+        \App\Models\User::factory(10)->create();
         \App\Models\Ads::factory(100)->create();
 
     }
